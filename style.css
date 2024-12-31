@@ -10,3 +10,19 @@ h1{
     text-transform: capitalize;
     
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 20px;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
